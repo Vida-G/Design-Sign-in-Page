@@ -1,0 +1,129 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+div{
+    padding: 20px;
+}
+.vertical-dist{
+flex-direction: column;
+justify-content: space-around;
+display: flex;
+}
+
+.logo-img{
+    display: block;
+    margin: 0 auto
+}
+
+
+.forget-pass{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 5px;
+} 
+
+.center-span{
+    text-align: left;
+    margin: 0 auto;
+}
+
+.continue{
+    text-align: right;
+    margin: 0 auto;
+}
+
+a {
+    font-size: 80%;
+    text-decoration: none;
+}
+
+fieldset{
+    width: 95%;
+    border: 1px solid rgba(167, 167, 167, 0.418);
+    border-radius: 3px;
+    padding: 10px 25px;
+
+}
+
+form label{
+    font-size: 80%;
+    font-weight: bold;
+}
+
+form input{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgba(161, 161, 161, 0.74);
+    border-radius: 2px;
+    margin-bottom: 25px;
+    color:rgb(63, 61, 61)
+}
+
+form input[type="submit"]{
+    background-color: rgb(223, 197, 132);
+    font-size: 85%;
+}
+
+span{
+    content: "\2023";
+    color: rgb(0, 89, 255);
+    padding: 4px;
+    display: inline-flex;
+    align-items:center
+}
+
+span#arrow{
+    font-size: 33px;
+}
+
+h5 {
+    overflow: hidden;
+    text-align: center;
+    font-size: 80%;
+    color: rgb(177, 174, 174);
+    margin: 20px;
+  }
+  
+  h5:before,
+  h5:after {
+    background-color: rgb(177, 174, 174);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+  }
+  
+  h5:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+  h5:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+
+
+#create{
+    background-color: rgba(17, 17, 17, 0.082);
+    font-size: 85%;
+    margin: 0;
+    display: block;
+    color:rgb(63, 61, 61)
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 40px;
+}
+
+p {
+    font-size: 80%;
+    text-align: center;
+}
